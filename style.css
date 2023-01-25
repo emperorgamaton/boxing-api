@@ -1,0 +1,51 @@
+body {
+    background-color: #D3D3D3;
+  }
+
+span {
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+}
+
+.homeFighterPicture {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    left: 400px;
+}
+
+.awayFighterPicture {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    right: 400px;
+}
+
+.LeagueName {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.fighterBox {
+    margin-bottom: 3.5rem;
+}
+
+.homeFighterName {
+    position: absolute;
+    left: 400px;
+}
+
+.awayFighterName{
+    position: absolute;
+    right: 400px;
+}
+
+.timeBox {
+    text-align: center;
+}
+
