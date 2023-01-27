@@ -1,0 +1,1 @@
+rapidAPIKey = 'd27090fec0msh387177df716f00bp1c0b90jsnd9fbb05b10be';

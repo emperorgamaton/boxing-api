@@ -1,7 +1,7 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'd27090fec0msh387177df716f00bp1c0b90jsnd9fbb05b10be',
+		'X-RapidAPI-Key': rapidAPIKey,
 		'X-RapidAPI-Host': 'flashlive-sports.p.rapidapi.com'
 	}
 };
