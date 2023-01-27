@@ -1,16 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "UFC schedule",
+    "name": "Boxing schedule",
     "version": "1.0",
 
-    "description": "A chrome extension to pull and display upcoming UFC fixtures",
+    "description": "A chrome extension to pull and display upcoming boxing fixtures",
 
 
     "author": "tendayimakwara@gmail.com",
 
     "content_scripts": [
         {
-            "js": ["ufc_schedule.js"]
+            "js": ["fetch.js"]
           
         }
       ]
