@@ -6,7 +6,7 @@ const options = {
   url: 'https://flashlive-sports.p.rapidapi.com/v1/events/list',
   params: {locale: 'en_INT', sport_id: '16', timezone: '-4', indent_days: '2'},
   headers: {
-    'X-RapidAPI-Key': 'd27090fec0msh387177df716f00bp1c0b90jsnd9fbb05b10be',
+    'X-RapidAPI-Key': 'SECRET',
     'X-RapidAPI-Host': 'flashlive-sports.p.rapidapi.com'
   }
 };
