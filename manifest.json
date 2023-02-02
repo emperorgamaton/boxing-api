@@ -4,13 +4,20 @@
     "version": "1.0",
 
     "description": "A chrome extension to pull and display upcoming boxing fixtures",
-
+    
 
     "author": "tendayimakwara@gmail.com",
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
 
     "content_scripts": [
         {
-            "js": ["fetch.js"]
+            "matches": ["<all_urls>"],
+            "run_at": "document_start",
+            "js": ["jquery-3.6.3.js", "jquery-ui.js", "config.js", "fetch.js"],
+            "css": ["style.css"]
           
         }
       ]
