@@ -5,7 +5,9 @@
 
     "description": "A chrome extension to pull and display upcoming boxing fixtures",
     
-
+    "action": {
+      "default_popup": "index.html"
+    },
     "author": "tendayimakwara@gmail.com",
     "icons": {
         "48": "icon48.png",
