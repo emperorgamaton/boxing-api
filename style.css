@@ -1,3 +1,8 @@
+html {
+    height: 600px;
+    width: 600px;
+}
+
 body {
     background-color: #D3D3D3;
   }
